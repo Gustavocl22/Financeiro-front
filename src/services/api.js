@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://financeiro-app-pen4.onrender.com'
+const API_BASE_URL = 'https://financeiro-app-pen4.onrender.com/api/finance'
  
 export const api = {
   
