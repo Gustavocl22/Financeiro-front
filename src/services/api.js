@@ -1,46 +1,5 @@
 const API_BASE_URL = 'https://financeiro-app-pen4.onrender.com'
-
  
-const sampleData = {
-  companies: [
-    {
-      id: 1,
-      name: "Tech Solutions Ltda.",
-      cnpj: "12345678000190",
-      industry: "Tecnologia",
-      createdAt: "2023-03-15",
-      isActive: true
-    },
-    {
-      id: 2,
-      name: "Varejo Master S.A.",
-      cnpj: "98765432000110",
-      industry: "Varejo",
-      createdAt: "2023-04-20",
-      isActive: true
-    }
-  ],
-  entries: [
-    {
-      id: 1,
-      description: "Venda de produtos",
-      amount: 5000.00,
-      date: "2023-06-15",
-      type: "Revenue",
-      category: "Sales"
-    },
-    {
-      id: 2,
-      description: "Pagamento de salários",
-      amount: 3200.00,
-      date: "2023-06-10",
-      type: "Expense",
-      category: "Salaries"
-    }
-  ],
-  results: []
-}
-
 export const api = {
   
   async getCompanies() {
