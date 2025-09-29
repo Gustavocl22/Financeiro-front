@@ -4,6 +4,12 @@ Aplicação front-end para gerenciamento financeiro, construída com React e Vit
 
 ---
 
+## 🌐 Demonstração do Projeto
+
+Acesse o front-end do projeto em: [financeiro-front-plum.vercel.app](https://financeiro-front-plum.vercel.app)
+
+---
+
 ## 📊 Funcionalidades
 
 - Cadastro, edição e exclusão de empresas
