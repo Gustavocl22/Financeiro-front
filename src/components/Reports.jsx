@@ -153,7 +153,7 @@ function Reports({ companies, entries }) {
       return
     }
 
-    // Senão, usa API
+    
     try {
       let data
       if (reportConfig.reportType === 'financial') {

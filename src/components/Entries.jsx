@@ -202,7 +202,7 @@ function Entries({ entries, setEntries, onAddEntry, onViewEntry, onEditEntry }) 
         </div>
       </div>
 
-      {/* Modal de confirmação de exclusão */}
+      
       {deleteConfirm && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }}>
           <div className="modal-dialog">

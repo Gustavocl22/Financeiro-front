@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5260/api/finance'
+const API_BASE_URL = 'https://financeiro-app-pen4.onrender.com'
 
  
 const sampleData = {
@@ -271,12 +271,7 @@ export const api = {
   // Função simulada para relatório comparativo
   async generateComparativeReport(companyId, months = 6) {
     try {
-      // Aqui você pode implementar chamada real para a API se existir
-      // Exemplo: const response = await fetch(`${API_BASE_URL}/report/comparative?companyId=${companyId}&months=${months}`)
-      // if (!response.ok) throw new Error('API não disponível')
-      // return await response.json()
-
-      // Simulação de dados comparativos
+     
       const now = new Date()
       const comparativeData = []
       for (let i = months - 1; i >= 0; i--) {

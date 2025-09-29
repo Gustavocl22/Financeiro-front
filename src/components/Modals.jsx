@@ -519,7 +519,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Add Company */}
+      
       {modals.addCompany && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -585,7 +585,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Add Entry */}
+      
       {modals.addEntry && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -677,7 +677,7 @@ function Modals({
                         <option key={opt} value={opt}>{opt}</option>
                       ))}
                     </select>
-                    {/* Removido campo de input para nova categoria */}
+                    
                   </div>
                 </form>
               </div>
@@ -690,7 +690,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Add Result */}
+      
       {modals.addResult && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -769,7 +769,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Visualizar Lançamento */}
+      
       {modals.viewEntry && selectedItem && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -795,7 +795,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Editar Lançamento */}
+      
       {modals.editEntry && selectedItem && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -847,7 +847,6 @@ function Modals({
                       value={editEntryForm.type}
                       onChange={e => {
                         const newType = e.target.value
-                        // Seleciona a primeira categoria do novo tipo
                         const defaultCategory =
                           (categoriesByType[newType] && categoriesByType[newType][0]?.value) || ''
                         setEditEntryForm({
@@ -881,7 +880,7 @@ function Modals({
                         <option key={opt} value={opt}>{getCategoryName(opt)}</option>
                       ))}
                     </select>
-                    {/* Removido campo de input para nova categoria */}
+                    
                   </div>
                 </form>
               </div>
@@ -894,7 +893,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Visualizar Resultado */}
+      
       {modals.viewResult && selectedItem && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
@@ -923,7 +922,7 @@ function Modals({
         </div>
       )}
 
-      {/* Modal Editar Resultado */}
+      
       {modals.editResult && selectedItem && (
         <div className="modal fade show" style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }} tabIndex="-1">
           <div className="modal-dialog">
